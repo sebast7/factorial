@@ -1,4 +1,4 @@
-package calculadora;
+package taller;
  
 /**
  * 
@@ -18,9 +18,9 @@ public class factorial {
 			return numero * factorial(numero-1);
 		else
 			return 1;
-		}
+	}
 	public static void main(String[] args) 
 	{
 		System.out.println("the factorial of 4 is: " + factorial(4));
-		}
+	}
 }
