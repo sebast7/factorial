@@ -1,4 +1,4 @@
-package calculadora;
+package taller;
  
 /**
  * 
@@ -21,7 +21,7 @@ public class fibonacci {
 				return 1;
 			else
 				return fibonacci (numero-1) + fibonacci (numero-2);
-		}
+	}
 	public static void main(String[] args) 
 	{
 		int n = 0;
