@@ -27,7 +27,7 @@ public class fibonacci {
 		int n = 0;
 		while(n!=9)
 		{
-			System.out.println("la serie de fibonacci es : " + n + " es " + fibonacci (n));
+			System.out.println("The fibonacci series is : " + n + " es " + fibonacci (n));
 			n++;
 		}
 	}
