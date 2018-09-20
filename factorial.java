@@ -21,6 +21,6 @@ public class factorial {
 		}
 	public static void main(String[] args) 
 	{
-		System.out.println("Factorial de 4 es: " + factorial(4));
+		System.out.println("the factorial of 4 is: " + factorial(4));
 		}
 }
