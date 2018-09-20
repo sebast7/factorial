@@ -1,4 +1,4 @@
-package calculadora;
+package taller;
 import java.io.*;
  
 /**
@@ -18,12 +18,12 @@ public class pascal {
 		if (a==b || b==0 )
 		{
 			return 1;
-			}
+		}
 		else
 		{
 			return triangulo (a-1,b-1) + triangulo (a-1,b);
-			}
 		}
+	}
 	public static void main(String[] args) 
 	{
 		for (int i = 0; i < 10; i++) 
@@ -31,8 +31,8 @@ public class pascal {
 			for (int j = 0; j <=i; j++)
 			{
 				System.out.print(triangulo (i,j));
-				}
+			}
 			System.out.println();
-			}		
-		}
+		}		
+	}
 }
