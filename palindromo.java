@@ -11,7 +11,7 @@ import java.io.*;
 public class palindromo {
 	/**
 	 * 
-	 * @param this program performs the fibonacci series recursively
+	 * @param this program tells us if the phrase is palindromic or not
 	 * @return
 	 */
 	public static boolean palindromo (String frase) 
@@ -36,11 +36,11 @@ public class palindromo {
 			frase=br.readLine();
 			if(palindromo(frase)== true)
 			{
-				System.out.println("la frase es palindromo" + frase);
+				System.out.println("the phrase is a palindrome" + frase);
 			}
 			else
 			{
-				System.out.println("la frase no es palindromo" + frase);
+				System.out.println("the phrase is not a palindrome" + frase);
 			}
 		}
 		catch(Exception ex)
