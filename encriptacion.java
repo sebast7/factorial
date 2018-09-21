@@ -1,11 +1,11 @@
-package calculadora;
-
+package taller;
 import java.io.*;
 /**
  * 
  * @author Sebastian Beltran
  *
  */
+
 public class encriptacion {
 	
 	/**
@@ -13,6 +13,7 @@ public class encriptacion {
 	 * @param This program enters a text encrypts it and at the same time decrypts it
 	 * @return
 	 */
+	
 	public static String convertirletras(String original)
 	{
 		String modified=original;
@@ -22,6 +23,7 @@ public class encriptacion {
 		modified=modified.replace("i", "1");
 		modified=modified.replace("o", "0");
 		modified=modified.replace("u", "9");
+		
 		return modified;
 	}
 	
@@ -45,16 +47,22 @@ public class encriptacion {
 	{
 		BufferedReader br= new BufferedReader(new InputStreamReader (System.in));
 		BufferedWriter bw= new BufferedWriter(new OutputStreamWriter(System.out));
+		
+		String text,t3xt;
+		
 		try
 		{
 			bw.write("\n" +"Enter the text you want to encrypt\n");
 			bw.flush(); 
-			String text=br.readLine();
+			text=br.readLine();
+			
 			text=text.toLowerCase();
-			bw.write("\n"+ "lowercase text: "+text+"\n");
+			
+			bw.write("\n"+ "lowercase text: "+text);
 			bw.flush();
-			String t3xt =convertirletras(text);
-			bw.write("\n" + "Text with replaced vowels: "+t3xt+"\n");
+			t3xt =convertirletras(text);
+			
+			bw.write("\n" + "Text with replaced vowels: "+t3xt);
 			bw.flush();
 			
 			char encrypt []=t3xt.toCharArray();
@@ -65,7 +73,8 @@ public class encriptacion {
 			{
 				encrypt[i]=(char) (encrypt [i] + (char) +5 );	
 			}
-			bw.write("\n" + "encrypted text: " + "\n");
+			
+			bw.write("\n" + "encrypted text: " );
 					
 			String encrypted=String.valueOf(encrypt);
 			bw.write (encrypted);
