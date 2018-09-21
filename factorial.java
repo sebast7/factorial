@@ -1,5 +1,5 @@
 package taller;
- 
+
 /**
  * 
  * @author Sebastian Beltran
@@ -7,11 +7,13 @@ package taller;
  */
 
 public class factorial {
+	
 	/**
 	 * 
 	 * @param This program performs a factorial operation through recursion
 	 * @return
 	 */
+	
 	public static int factorial (int numero) 
 	{
 		if (numero > 0) 
