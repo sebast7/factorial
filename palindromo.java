@@ -32,7 +32,7 @@ public class palindromo {
 		String frase;
 		try
 		{
-			bw.write("escriba la palabara");
+			System.out.println("write the word");
 			frase=br.readLine();
 			if(palindromo(frase)== true)
 			{
