@@ -7,11 +7,13 @@ package taller;
  */
 
 public class fibonacci {
+	
 	/**
 	 * 
 	 * @param this program performs the fibonacci series recursively
 	 * @return
 	 */
+	
 	public static int fibonacci (int numero) 
 	{
 		if(numero == 0) 
