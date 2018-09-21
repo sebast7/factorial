@@ -8,11 +8,13 @@ import java.io.*;
  */
 
 public class pascal {
+	
 	/**
 	 * 
 	 * @param this program shows the pascal triangle
 	 * @return
 	 */
+	
 	public static int triangulo (int a, int b) 
 	{
 		if (a==b || b==0 )
